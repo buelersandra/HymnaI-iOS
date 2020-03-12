@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32204273241A2A8700FD6466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204272241A2A8700FD6466 /* AppDelegate.swift */; };
+		32204275241A2A8700FD6466 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204274241A2A8700FD6466 /* SceneDelegate.swift */; };
+		32204277241A2A8700FD6466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204276241A2A8700FD6466 /* ViewController.swift */; };
+		3220427A241A2A8700FD6466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32204278241A2A8700FD6466 /* Main.storyboard */; };
+		3220427D241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3220427B241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld */; };
+		3220427F241A2A8900FD6466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3220427E241A2A8900FD6466 /* Assets.xcassets */; };
+		32204282241A2A8900FD6466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32204280241A2A8900FD6466 /* LaunchScreen.storyboard */; };
+		3220428D241A2A8900FD6466 /* Hymnal_CACITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220428C241A2A8900FD6466 /* Hymnal_CACITests.swift */; };
+		32204298241A2A8900FD6466 /* Hymnal_CACIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32204289241A2A8900FD6466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32204267241A2A8700FD6466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3220426E241A2A8700FD6466;
+			remoteInfo = "Hymnal-CACI";
+		};
+		32204294241A2A8900FD6466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32204267241A2A8700FD6466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3220426E241A2A8700FD6466;
+			remoteInfo = "Hymnal-CACI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3220426F241A2A8700FD6466 /* Hymnal-CACI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hymnal-CACI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32204272241A2A8700FD6466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32204274241A2A8700FD6466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32204276241A2A8700FD6466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32204279241A2A8700FD6466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3220427C241A2A8700FD6466 /* Hymnal_CACI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hymnal_CACI.xcdatamodel; sourceTree = "<group>"; };
+		3220427E241A2A8900FD6466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32204281241A2A8900FD6466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32204283241A2A8900FD6466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32204288241A2A8900FD6466 /* Hymnal-CACITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hymnal-CACITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3220428C241A2A8900FD6466 /* Hymnal_CACITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hymnal_CACITests.swift; sourceTree = "<group>"; };
+		3220428E241A2A8900FD6466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32204293241A2A8900FD6466 /* Hymnal-CACIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hymnal-CACIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hymnal_CACIUITests.swift; sourceTree = "<group>"; };
+		32204299241A2A8900FD6466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3220426C241A2A8700FD6466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32204285241A2A8900FD6466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32204290241A2A8900FD6466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32204266241A2A8700FD6466 = {
+			isa = PBXGroup;
+			children = (
+				32204271241A2A8700FD6466 /* Hymnal-CACI */,
+				3220428B241A2A8900FD6466 /* Hymnal-CACITests */,
+				32204296241A2A8900FD6466 /* Hymnal-CACIUITests */,
+				32204270241A2A8700FD6466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32204270241A2A8700FD6466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3220426F241A2A8700FD6466 /* Hymnal-CACI.app */,
+				32204288241A2A8900FD6466 /* Hymnal-CACITests.xctest */,
+				32204293241A2A8900FD6466 /* Hymnal-CACIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32204271241A2A8700FD6466 /* Hymnal-CACI */ = {
+			isa = PBXGroup;
+			children = (
+				32204272241A2A8700FD6466 /* AppDelegate.swift */,
+				32204274241A2A8700FD6466 /* SceneDelegate.swift */,
+				32204276241A2A8700FD6466 /* ViewController.swift */,
+				32204278241A2A8700FD6466 /* Main.storyboard */,
+				3220427E241A2A8900FD6466 /* Assets.xcassets */,
+				32204280241A2A8900FD6466 /* LaunchScreen.storyboard */,
+				32204283241A2A8900FD6466 /* Info.plist */,
+				3220427B241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld */,
+			);
+			path = "Hymnal-CACI";
+			sourceTree = "<group>";
+		};
+		3220428B241A2A8900FD6466 /* Hymnal-CACITests */ = {
+			isa = PBXGroup;
+			children = (
+				3220428C241A2A8900FD6466 /* Hymnal_CACITests.swift */,
+				3220428E241A2A8900FD6466 /* Info.plist */,
+			);
+			path = "Hymnal-CACITests";
+			sourceTree = "<group>";
+		};
+		32204296241A2A8900FD6466 /* Hymnal-CACIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */,
+				32204299241A2A8900FD6466 /* Info.plist */,
+			);
+			path = "Hymnal-CACIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3220426E241A2A8700FD6466 /* Hymnal-CACI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3220429C241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACI" */;
+			buildPhases = (
+				3220426B241A2A8700FD6466 /* Sources */,
+				3220426C241A2A8700FD6466 /* Frameworks */,
+				3220426D241A2A8700FD6466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hymnal-CACI";
+			productName = "Hymnal-CACI";
+			productReference = 3220426F241A2A8700FD6466 /* Hymnal-CACI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32204287241A2A8900FD6466 /* Hymnal-CACITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3220429F241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACITests" */;
+			buildPhases = (
+				32204284241A2A8900FD6466 /* Sources */,
+				32204285241A2A8900FD6466 /* Frameworks */,
+				32204286241A2A8900FD6466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3220428A241A2A8900FD6466 /* PBXTargetDependency */,
+			);
+			name = "Hymnal-CACITests";
+			productName = "Hymnal-CACITests";
+			productReference = 32204288241A2A8900FD6466 /* Hymnal-CACITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32204292241A2A8900FD6466 /* Hymnal-CACIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322042A2241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACIUITests" */;
+			buildPhases = (
+				3220428F241A2A8900FD6466 /* Sources */,
+				32204290241A2A8900FD6466 /* Frameworks */,
+				32204291241A2A8900FD6466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32204295241A2A8900FD6466 /* PBXTargetDependency */,
+			);
+			name = "Hymnal-CACIUITests";
+			productName = "Hymnal-CACIUITests";
+			productReference = 32204293241A2A8900FD6466 /* Hymnal-CACIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32204267241A2A8700FD6466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Fhoodi;
+				TargetAttributes = {
+					3220426E241A2A8700FD6466 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32204287241A2A8900FD6466 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3220426E241A2A8700FD6466;
+					};
+					32204292241A2A8900FD6466 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3220426E241A2A8700FD6466;
+					};
+				};
+			};
+			buildConfigurationList = 3220426A241A2A8700FD6466 /* Build configuration list for PBXProject "Hymnal-CACI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32204266241A2A8700FD6466;
+			productRefGroup = 32204270241A2A8700FD6466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3220426E241A2A8700FD6466 /* Hymnal-CACI */,
+				32204287241A2A8900FD6466 /* Hymnal-CACITests */,
+				32204292241A2A8900FD6466 /* Hymnal-CACIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3220426D241A2A8700FD6466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32204282241A2A8900FD6466 /* LaunchScreen.storyboard in Resources */,
+				3220427F241A2A8900FD6466 /* Assets.xcassets in Resources */,
+				3220427A241A2A8700FD6466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32204286241A2A8900FD6466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32204291241A2A8900FD6466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3220426B241A2A8700FD6466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3220427D241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld in Sources */,
+				32204277241A2A8700FD6466 /* ViewController.swift in Sources */,
+				32204273241A2A8700FD6466 /* AppDelegate.swift in Sources */,
+				32204275241A2A8700FD6466 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32204284241A2A8900FD6466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3220428D241A2A8900FD6466 /* Hymnal_CACITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3220428F241A2A8900FD6466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32204298241A2A8900FD6466 /* Hymnal_CACIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3220428A241A2A8900FD6466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3220426E241A2A8700FD6466 /* Hymnal-CACI */;
+			targetProxy = 32204289241A2A8900FD6466 /* PBXContainerItemProxy */;
+		};
+		32204295241A2A8900FD6466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3220426E241A2A8700FD6466 /* Hymnal-CACI */;
+			targetProxy = 32204294241A2A8900FD6466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32204278241A2A8700FD6466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32204279241A2A8700FD6466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32204280241A2A8900FD6466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32204281241A2A8900FD6466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3220429A241A2A8900FD6466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3220429B241A2A8900FD6466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3220429D241A2A8900FD6466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3220429E241A2A8900FD6466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		322042A0241A2A8900FD6466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hymnal-CACI.app/Hymnal-CACI";
+			};
+			name = Debug;
+		};
+		322042A1241A2A8900FD6466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hymnal-CACI.app/Hymnal-CACI";
+			};
+			name = Release;
+		};
+		322042A3241A2A8900FD6466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hymnal-CACI";
+			};
+			name = Debug;
+		};
+		322042A4241A2A8900FD6466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				INFOPLIST_FILE = "Hymnal-CACIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beulahana.Hymnal-CACIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hymnal-CACI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3220426A241A2A8700FD6466 /* Build configuration list for PBXProject "Hymnal-CACI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3220429A241A2A8900FD6466 /* Debug */,
+				3220429B241A2A8900FD6466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3220429C241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3220429D241A2A8900FD6466 /* Debug */,
+				3220429E241A2A8900FD6466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3220429F241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322042A0241A2A8900FD6466 /* Debug */,
+				322042A1241A2A8900FD6466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322042A2241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322042A3241A2A8900FD6466 /* Debug */,
+				322042A4241A2A8900FD6466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3220427B241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3220427C241A2A8700FD6466 /* Hymnal_CACI.xcdatamodel */,
+			);
+			currentVersion = 3220427C241A2A8700FD6466 /* Hymnal_CACI.xcdatamodel */;
+			path = Hymnal_CACI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32204267241A2A8700FD6466 /* Project object */;
+}
