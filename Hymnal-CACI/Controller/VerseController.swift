@@ -50,7 +50,7 @@ extension VerseController:UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! VerseCell
-        cell.numberLabel.text = verseList[indexPath.row].verseNumber
+        cell.numberLabel.text = String(verseList[indexPath.row].verseNumber) 
         cell.verseLabel.text = verseList[indexPath.row].verse
         return cell
     }
