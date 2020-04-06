@@ -22,7 +22,7 @@ struct Hymn: Codable{
 
 
 struct Verse:Codable {
-    let id:Int
+    let id:String
     let hymnId:String
     let verseNumber:Int
     let verse:String

@@ -18,8 +18,7 @@ class CloudFirestoreUti {
     let db = Firestore.firestore()
     
     func getHymnCollection( callback:@escaping ([Hymn])->Void){
-        var ids = [String]()
-        let list = [Hymn]()
+        var list = [Hymn]()
         
         db.collection(COLLECTION_HYMN).getDocuments(completion: {a,error in
             if let querySnapshot = a{
@@ -27,14 +26,24 @@ class CloudFirestoreUti {
                     print("querySnapshot : \(querySnapshot.count)")
                     querySnapshot.documents.forEach({
                         document in
-                        ids.append(document.documentID)
-                        
-                    })
+                        let title = document.get("title") as! String
+                        let numberRange = title.index(title.startIndex, offsetBy: 8)..<title.endIndex
+                        let number = String(title[numberRange])
+                        print("hymn number \(number)")
+                        list.append(
+                            Hymn(id: document.documentID,
+                                 title: title,
+                                 number: Int(number)! ,
+                                chorus: document.get("chorus") as! String))})
                     
-                    callback([])
+                    callback(list)
+                }else{
+                    callback(list)
                 }
                 
             
+            }else{
+                callback(list)
             }
             
             
@@ -42,14 +51,20 @@ class CloudFirestoreUti {
     }
     
     func getVerseCollection(callback:@escaping ([Verse])->Void){
+        var list = [Verse]()
         db.collection(COLLECTION_VERSE).getDocuments(completion: {a,b in
             if let querySnapshot = a{
                 if !querySnapshot.isEmpty {
                     print("querySnapshot : \(querySnapshot.count)")
                     querySnapshot.documents.forEach({
                         document in
+                        list.append(
+                            Verse(id: document.documentID,
+                                  hymnId: document.get("hymnId") as! String,
+                                  verseNumber: document.get("verseNumber") as! Int,
+                                  verse: document.get("verse") as! String))
                         
-                        callback([])
+                        callback(list)
                     })
                 }
                 
