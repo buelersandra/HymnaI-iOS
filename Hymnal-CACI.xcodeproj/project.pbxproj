@@ -22,6 +22,7 @@
 		32A64A282427DC25000F6A11 /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A272427DC25000F6A11 /* VerseController.swift */; };
 		32A64A2A2427DC53000F6A11 /* ChorusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A292427DC53000F6A11 /* ChorusController.swift */; };
 		32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */; };
+		32BE44B1243C0EAA0048C130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */; };
 		472837988FDCC2EE572465EF /* Pods_Hymnal_CACITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A23FCBC6123620036828B4 /* Pods_Hymnal_CACITests.framework */; };
 		DCFB7136BD96BDDA0E2E1AF4 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5D24371A29FE9A1A347B59 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		32A64A272427DC25000F6A11 /* VerseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
 		32A64A292427DC53000F6A11 /* ChorusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusController.swift; sourceTree = "<group>"; };
 		32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFirestoreUtil.swift; sourceTree = "<group>"; };
+		32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5017592616C456C19945141F /* Pods-Hymnal-CACI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.release.xcconfig"; sourceTree = "<group>"; };
 		5D7C09BE56DCD278FC5B2687 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C5D24371A29FE9A1A347B59 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACI_Hymnal_CACIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				3220427E241A2A8900FD6466 /* Assets.xcassets */,
 				32204280241A2A8900FD6466 /* LaunchScreen.storyboard */,
 				32204283241A2A8900FD6466 /* Info.plist */,
+				32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */,
 				3220427B241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld */,
 			);
 			path = "Hymnal-CACI";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32204282241A2A8900FD6466 /* LaunchScreen.storyboard in Resources */,
+				32BE44B1243C0EAA0048C130 /* GoogleService-Info.plist in Resources */,
 				3220427F241A2A8900FD6466 /* Assets.xcassets in Resources */,
 				3220427A241A2A8700FD6466 /* Main.storyboard in Resources */,
 			);

@@ -17,8 +17,16 @@ class CloudFirestoreUti {
     
     let db = Firestore.firestore()
     
+    var verselist = [Verse]()
+    
     func getHymnCollection( callback:@escaping ([Hymn])->Void){
         var list = [Hymn]()
+        
+        getVerseCollection(callback: {list in
+            self.verselist = list.sorted(by: {a,b in
+                a.verseNumber<b.verseNumber
+            })
+        })
         
         db.collection(COLLECTION_HYMN).getDocuments(completion: {a,error in
             if let querySnapshot = a{
@@ -27,16 +35,16 @@ class CloudFirestoreUti {
                     querySnapshot.documents.forEach({
                         document in
                         let title = document.get("title") as! String
-                        let numberRange = title.index(title.startIndex, offsetBy: 8)..<title.endIndex
-                        let number = String(title[numberRange])
-                        print("hymn number \(number)")
+                        let numberRange = title.index(title.startIndex, offsetBy: 9)..<title.endIndex
+                        let number = String(title[numberRange]).trimmingCharacters(in: .whitespaces)
+                        //print("title \(title) : hymn number \(number)")
                         list.append(
                             Hymn(id: document.documentID,
                                  title: title,
-                                 number: Int(number)! ,
+                                 number: Int(number) ?? 0 ,
                                 chorus: document.get("chorus") as! String))})
-                    
-                    callback(list)
+                                        
+                    callback(list.unique(map: {$0.number}))
                 }else{
                     callback(list)
                 }
@@ -55,7 +63,7 @@ class CloudFirestoreUti {
         db.collection(COLLECTION_VERSE).getDocuments(completion: {a,b in
             if let querySnapshot = a{
                 if !querySnapshot.isEmpty {
-                    print("querySnapshot : \(querySnapshot.count)")
+                    print("Verse querySnapshot : \(querySnapshot.count)")
                     querySnapshot.documents.forEach({
                         document in
                         list.append(
@@ -64,8 +72,11 @@ class CloudFirestoreUti {
                                   verseNumber: document.get("verseNumber") as! Int,
                                   verse: document.get("verse") as! String))
                         
-                        callback(list)
+                        
+                       
                     })
+                    
+                    callback(list)
                 }
                 
             
@@ -73,6 +84,18 @@ class CloudFirestoreUti {
             
         })
         
+    }
+    
+    
+    func getVerse(_ id:String) -> [Verse]{
+        var result = [Verse]()
+        verselist.forEach({verse in
+            if(verse.hymnId == id){
+                result.append(verse)
+            }
+            
+        })
+        return result
     }
 
 }

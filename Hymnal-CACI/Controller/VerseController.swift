@@ -11,6 +11,7 @@ import UIKit
 class VerseCell:UITableViewCell{
     
     
+   
     @IBOutlet weak var numberLabel: UILabel!
     
     @IBOutlet weak var verseLabel: UILabel!
@@ -22,18 +23,28 @@ class VerseController: UIViewController {
     var hymn:Hymn!
 
     @IBOutlet weak var verseTableView: UITableView!
+    
+    @IBAction func chorusBarButton(_ sender: UIBarButtonItem) {
+        showChorus()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.navigationController?.title = hymn.title
+        self.navigationController?.title = hymn.title
         verseTableView.delegate = self
         verseTableView.dataSource = self
         
+        verseList = CloudFirestoreUti.shared.getVerse(hymn.id)
+        verseTableView.reloadData()
+            
 
     }
     
     
     func showChorus(){
-        self.navigationController?.present(ChorusController(), animated: true, completion: nil)
+        let chorusController = storyboard?.instantiateViewController(withIdentifier: "ChorusController") as! ChorusController
+        chorusController.chorus = hymn.chorus;
+        self.present(chorusController,animated: true,completion: nil)
     }
     
 
@@ -53,6 +64,10 @@ extension VerseController:UITableViewDataSource,UITableViewDelegate{
         cell.numberLabel.text = String(verseList[indexPath.row].verseNumber) 
         cell.verseLabel.text = verseList[indexPath.row].verse
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(200)
     }
     
     

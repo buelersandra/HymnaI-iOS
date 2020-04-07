@@ -20,6 +20,14 @@ class HymnController: UIViewController {
     
     
     override func viewDidLoad() {
+         CloudFirestoreUti.shared.getHymnCollection(callback: { list in
+            self.hymnList = list.sorted(by: {a,b in
+                a.number<b.number
+            })
+            
+            
+            self.hymnTableView.reloadData()
+        })
         super.viewDidLoad()
         self.navigationController?.title = "CACI Hymnal"
         hymnTableView.delegate = self
@@ -42,10 +50,16 @@ extension HymnController : UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let verseController = VerseController()
-        verseController.hymn = hymnList[indexPath.row]
-        self.navigationController?.present(verseController, animated: true, completion: nil)
+                
+        let verseController = storyboard?.instantiateViewController(withIdentifier: "VerseController") as! VerseController
+        verseController.hymn = hymnList[indexPath.row];        self.navigationController?.pushViewController(verseController,animated: true)
         
+        
+    }
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(90)
     }
     
     

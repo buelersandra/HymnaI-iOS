@@ -9,9 +9,13 @@
 import UIKit
 
 class ChorusController: UIViewController {
+    
+    var chorus:String!
 
+    @IBOutlet weak var chorusLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        chorusLabel.text = chorus
 
     }
     
