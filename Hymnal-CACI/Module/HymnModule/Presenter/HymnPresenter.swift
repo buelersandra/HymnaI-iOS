@@ -16,7 +16,7 @@ class HymnPresenter:PresenterHymnProtocol{
     var router: RouterHymnProtocol?
     
     func fetchHymn() {
-        
+        interactor?.loadHymns()
     }
     
     
@@ -25,7 +25,10 @@ class HymnPresenter:PresenterHymnProtocol{
 
 extension HymnPresenter:InteractorToPresenterPostsListProtocol{
     func postsSuccess(postList: Array<Hymn>) {
-        view?.showHymns(hymnList: postList)
+        let hymnList = postList.sorted(by: {a,b in
+            a.number<b.number
+        })
+        view?.showHymns(hymnList: hymnList)
     }
     
     func postsFailed() {

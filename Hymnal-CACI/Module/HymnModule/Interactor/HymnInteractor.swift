@@ -11,8 +11,14 @@ import Foundation
 class HymnInteractor:InteractorHymnProtocol{
     var presenter: InteractorToPresenterPostsListProtocol?
     
-    func loadPosts() {
-        
+    func loadHymns() {
+        CloudFirestoreUti.shared.getHymnCollection(callback: { list in
+            
+            self.presenter?.postsSuccess(postList: list)
+            
+            //add error
+           
+        })
     }
     
     

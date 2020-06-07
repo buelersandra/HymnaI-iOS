@@ -89,6 +89,7 @@ class CloudFirestoreUti {
     
     
     func getVerse(_ id:String) -> [Verse]{
+        
         var result = [Verse]()
         verselist.forEach({verse in
             if(verse.hymnId == id){

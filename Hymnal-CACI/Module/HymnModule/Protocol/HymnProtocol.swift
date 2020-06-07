@@ -29,7 +29,7 @@ protocol RouterHymnProtocol:class {
 protocol InteractorHymnProtocol:class {
     
     var presenter: InteractorToPresenterPostsListProtocol? {get set}
-    func loadPosts()
+    func loadHymns()
     
 }
 

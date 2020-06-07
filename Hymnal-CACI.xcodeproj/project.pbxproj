@@ -18,7 +18,6 @@
 		3220428D241A2A8900FD6466 /* Hymnal_CACITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220428C241A2A8900FD6466 /* Hymnal_CACITests.swift */; };
 		32204298241A2A8900FD6466 /* Hymnal_CACIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */; };
 		32A64A222427B2B9000F6A11 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A212427B2B9000F6A11 /* Entity.swift */; };
-		32A64A262427B70B000F6A11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A252427B70B000F6A11 /* DataManager.swift */; };
 		32A64A282427DC25000F6A11 /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A272427DC25000F6A11 /* VerseController.swift */; };
 		32A64A2A2427DC53000F6A11 /* ChorusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A292427DC53000F6A11 /* ChorusController.swift */; };
 		32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */; };
@@ -67,7 +66,6 @@
 		32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hymnal_CACIUITests.swift; sourceTree = "<group>"; };
 		32204299241A2A8900FD6466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A64A212427B2B9000F6A11 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		32A64A252427B70B000F6A11 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		32A64A272427DC25000F6A11 /* VerseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
 		32A64A292427DC53000F6A11 /* ChorusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusController.swift; sourceTree = "<group>"; };
 		32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFirestoreUtil.swift; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 			children = (
 				32A74B78248AD10F00574F57 /* Service */,
 				32A74B77248AD0FB00574F57 /* Entity */,
-				32A64A252427B70B000F6A11 /* DataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -555,7 +552,6 @@
 				32204277241A2A8700FD6466 /* HymnController.swift in Sources */,
 				32A74B82248AE0D200574F57 /* HymnProtocol.swift in Sources */,
 				32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */,
-				32A64A262427B70B000F6A11 /* DataManager.swift in Sources */,
 				32204273241A2A8700FD6466 /* AppDelegate.swift in Sources */,
 				32204275241A2A8700FD6466 /* SceneDelegate.swift in Sources */,
 			);

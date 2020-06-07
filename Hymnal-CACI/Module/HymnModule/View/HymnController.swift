@@ -12,17 +12,25 @@ class HymnCell: UITableViewCell{
     
     @IBOutlet weak var titleLabel: UILabel!
 }
+/*
+ Presenter
+ View
+ Interactor
+ Router
+ 
+ Protocol
+ */
 
 class HymnController: UIViewController {
     
     @IBOutlet weak var hymnTableView: UITableView!
     var hymnList = [Hymn]()
+    var presenter:PresenterHymnProtocol?
     
     
     override func viewDidLoad() {
-         CloudFirestoreUti.shared.getHymnCollection(callback: { list in
-           
-        })
+         
+        presenter?.fetchHymn()
         super.viewDidLoad()
         self.navigationController?.title = "CACI Hymnal"
         hymnTableView.delegate = self
@@ -35,11 +43,7 @@ class HymnController: UIViewController {
 
 extension HymnController:ViewHymnProtocol {
     func showHymns(hymnList: Array<Hymn>) {
-        self.hymnList = hymnList.sorted(by: {a,b in
-                       a.number<b.number
-                   })
-                   
-                   
+        self.hymnList = hymnList
         self.hymnTableView.reloadData()
     }
     
