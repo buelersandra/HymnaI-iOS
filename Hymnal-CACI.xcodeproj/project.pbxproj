@@ -17,11 +17,15 @@
 		32204282241A2A8900FD6466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32204280241A2A8900FD6466 /* LaunchScreen.storyboard */; };
 		3220428D241A2A8900FD6466 /* Hymnal_CACITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220428C241A2A8900FD6466 /* Hymnal_CACITests.swift */; };
 		32204298241A2A8900FD6466 /* Hymnal_CACIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */; };
-		32A64A222427B2B9000F6A11 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A212427B2B9000F6A11 /* Model.swift */; };
+		32A64A222427B2B9000F6A11 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A212427B2B9000F6A11 /* Entity.swift */; };
 		32A64A262427B70B000F6A11 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A252427B70B000F6A11 /* DataManager.swift */; };
 		32A64A282427DC25000F6A11 /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A272427DC25000F6A11 /* VerseController.swift */; };
 		32A64A2A2427DC53000F6A11 /* ChorusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A292427DC53000F6A11 /* ChorusController.swift */; };
 		32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */; };
+		32A74B82248AE0D200574F57 /* HymnProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A74B81248AE0D200574F57 /* HymnProtocol.swift */; };
+		32A74B84248AE49300574F57 /* HymnInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A74B83248AE49300574F57 /* HymnInteractor.swift */; };
+		32A74B86248AE6D600574F57 /* HymnRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A74B85248AE6D600574F57 /* HymnRouter.swift */; };
+		32A74B88248AE80900574F57 /* HymnPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A74B87248AE80900574F57 /* HymnPresenter.swift */; };
 		32BE44B1243C0EAA0048C130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */; };
 		472837988FDCC2EE572465EF /* Pods_Hymnal_CACITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A23FCBC6123620036828B4 /* Pods_Hymnal_CACITests.framework */; };
 		DCFB7136BD96BDDA0E2E1AF4 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5D24371A29FE9A1A347B59 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */; };
@@ -62,11 +66,15 @@
 		32204293241A2A8900FD6466 /* Hymnal-CACIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hymnal-CACIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32204297241A2A8900FD6466 /* Hymnal_CACIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hymnal_CACIUITests.swift; sourceTree = "<group>"; };
 		32204299241A2A8900FD6466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32A64A212427B2B9000F6A11 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		32A64A212427B2B9000F6A11 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		32A64A252427B70B000F6A11 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		32A64A272427DC25000F6A11 /* VerseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
 		32A64A292427DC53000F6A11 /* ChorusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusController.swift; sourceTree = "<group>"; };
 		32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFirestoreUtil.swift; sourceTree = "<group>"; };
+		32A74B81248AE0D200574F57 /* HymnProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnProtocol.swift; sourceTree = "<group>"; };
+		32A74B83248AE49300574F57 /* HymnInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnInteractor.swift; sourceTree = "<group>"; };
+		32A74B85248AE6D600574F57 /* HymnRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnRouter.swift; sourceTree = "<group>"; };
+		32A74B87248AE80900574F57 /* HymnPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnPresenter.swift; sourceTree = "<group>"; };
 		32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5017592616C456C19945141F /* Pods-Hymnal-CACI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.release.xcconfig"; sourceTree = "<group>"; };
 		5D7C09BE56DCD278FC5B2687 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,9 +138,9 @@
 		32204271241A2A8700FD6466 /* Hymnal-CACI */ = {
 			isa = PBXGroup;
 			children = (
-				32A64A1F2427B201000F6A11 /* Service */,
-				32A64A1E2427A7C9000F6A11 /* View */,
-				32A64A1D2427A7A4000F6A11 /* Controller */,
+				32A64A1F2427B201000F6A11 /* Model */,
+				32A64A1E2427A7C9000F6A11 /* Storyboard */,
+				32A64A1D2427A7A4000F6A11 /* Module */,
 				32204272241A2A8700FD6466 /* AppDelegate.swift */,
 				32204274241A2A8700FD6466 /* SceneDelegate.swift */,
 				3220427E241A2A8900FD6466 /* Assets.xcassets */,
@@ -162,32 +170,116 @@
 			path = "Hymnal-CACIUITests";
 			sourceTree = "<group>";
 		};
-		32A64A1D2427A7A4000F6A11 /* Controller */ = {
+		32A64A1D2427A7A4000F6A11 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				32204276241A2A8700FD6466 /* HymnController.swift */,
-				32A64A272427DC25000F6A11 /* VerseController.swift */,
-				32A64A292427DC53000F6A11 /* ChorusController.swift */,
+				32A74B7B248AD41100574F57 /* ChorusModule */,
+				32A74B7A248AD3D500574F57 /* VerseModule */,
+				32A74B79248AD3C500574F57 /* HymnModule */,
 			);
-			path = Controller;
+			path = Module;
 			sourceTree = "<group>";
 		};
-		32A64A1E2427A7C9000F6A11 /* View */ = {
+		32A64A1E2427A7C9000F6A11 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
 				32204278241A2A8700FD6466 /* Main.storyboard */,
 			);
-			path = View;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		32A64A1F2427B201000F6A11 /* Service */ = {
+		32A64A1F2427B201000F6A11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				32A64A212427B2B9000F6A11 /* Model.swift */,
+				32A74B78248AD10F00574F57 /* Service */,
+				32A74B77248AD0FB00574F57 /* Entity */,
 				32A64A252427B70B000F6A11 /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32A74B77248AD0FB00574F57 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				32A64A212427B2B9000F6A11 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		32A74B78248AD10F00574F57 /* Service */ = {
+			isa = PBXGroup;
+			children = (
 				32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		32A74B79248AD3C500574F57 /* HymnModule */ = {
+			isa = PBXGroup;
+			children = (
+				32A74B80248AD5E300574F57 /* Protocol */,
+				32A74B7F248AD5D700574F57 /* Router */,
+				32A74B7E248AD5BD00574F57 /* Interactor */,
+				32A74B7D248AD5AF00574F57 /* Presenter */,
+				32A74B7C248AD5A200574F57 /* View */,
+			);
+			path = HymnModule;
+			sourceTree = "<group>";
+		};
+		32A74B7A248AD3D500574F57 /* VerseModule */ = {
+			isa = PBXGroup;
+			children = (
+				32A64A272427DC25000F6A11 /* VerseController.swift */,
+			);
+			path = VerseModule;
+			sourceTree = "<group>";
+		};
+		32A74B7B248AD41100574F57 /* ChorusModule */ = {
+			isa = PBXGroup;
+			children = (
+				32A64A292427DC53000F6A11 /* ChorusController.swift */,
+			);
+			path = ChorusModule;
+			sourceTree = "<group>";
+		};
+		32A74B7C248AD5A200574F57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32204276241A2A8700FD6466 /* HymnController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32A74B7D248AD5AF00574F57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				32A74B87248AE80900574F57 /* HymnPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		32A74B7E248AD5BD00574F57 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				32A74B83248AE49300574F57 /* HymnInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		32A74B7F248AD5D700574F57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				32A74B85248AE6D600574F57 /* HymnRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		32A74B80248AD5E300574F57 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				32A74B81248AE0D200574F57 /* HymnProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		34712DA84AD17CBA3C818AD0 /* Frameworks */ = {
@@ -453,11 +545,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A64A222427B2B9000F6A11 /* Model.swift in Sources */,
+				32A64A222427B2B9000F6A11 /* Entity.swift in Sources */,
+				32A74B88248AE80900574F57 /* HymnPresenter.swift in Sources */,
 				32A64A282427DC25000F6A11 /* VerseController.swift in Sources */,
+				32A74B84248AE49300574F57 /* HymnInteractor.swift in Sources */,
 				3220427D241A2A8700FD6466 /* Hymnal_CACI.xcdatamodeld in Sources */,
+				32A74B86248AE6D600574F57 /* HymnRouter.swift in Sources */,
 				32A64A2A2427DC53000F6A11 /* ChorusController.swift in Sources */,
 				32204277241A2A8700FD6466 /* HymnController.swift in Sources */,
+				32A74B82248AE0D200574F57 /* HymnProtocol.swift in Sources */,
 				32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */,
 				32A64A262427B70B000F6A11 /* DataManager.swift in Sources */,
 				32204273241A2A8700FD6466 /* AppDelegate.swift in Sources */,

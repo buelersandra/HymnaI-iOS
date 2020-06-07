@@ -21,12 +21,7 @@ class HymnController: UIViewController {
     
     override func viewDidLoad() {
          CloudFirestoreUti.shared.getHymnCollection(callback: { list in
-            self.hymnList = list.sorted(by: {a,b in
-                a.number<b.number
-            })
-            
-            
-            self.hymnTableView.reloadData()
+           
         })
         super.viewDidLoad()
         self.navigationController?.title = "CACI Hymnal"
@@ -36,6 +31,23 @@ class HymnController: UIViewController {
     }
 
 
+}
+
+extension HymnController:ViewHymnProtocol {
+    func showHymns(hymnList: Array<Hymn>) {
+        self.hymnList = hymnList.sorted(by: {a,b in
+                       a.number<b.number
+                   })
+                   
+                   
+        self.hymnTableView.reloadData()
+    }
+    
+    func showEmptyState(error: String) {
+        
+    }
+    
+    
 }
 
 extension HymnController : UITableViewDelegate,UITableViewDataSource{

@@ -64,6 +64,7 @@ class CloudFirestoreUti {
             if let querySnapshot = a{
                 if !querySnapshot.isEmpty {
                     print("Verse querySnapshot : \(querySnapshot.count)")
+                    
                     querySnapshot.documents.forEach({
                         document in
                         list.append(
