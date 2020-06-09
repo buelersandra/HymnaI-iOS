@@ -30,11 +30,13 @@ class HymnController: UIViewController {
     
     override func viewDidLoad() {
          
-        presenter?.fetchHymn()
+       
         super.viewDidLoad()
         self.navigationController?.title = "CACI Hymnal"
         hymnTableView.delegate = self
         hymnTableView.dataSource = self
+        HymnRouter.createHymnModule(hymnController: self)
+        presenter?.fetchHymn()
 
     }
 
