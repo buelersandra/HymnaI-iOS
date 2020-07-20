@@ -1,6 +1,0 @@
-framework module Pods_Hymnal_CACITests {
-  umbrella header "Pods-Hymnal-CACITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

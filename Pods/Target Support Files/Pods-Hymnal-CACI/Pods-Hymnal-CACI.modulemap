@@ -1,6 +1,0 @@
-framework module Pods_Hymnal_CACI {
-  umbrella header "Pods-Hymnal-CACI-umbrella.h"
-
-  export *
-  module * { export * }
-}
