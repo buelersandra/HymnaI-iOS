@@ -16,7 +16,7 @@ steps:
     scheme: ''
     sdk: 'iphoneos'
     configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    xcWorkspacePath: '**/*.xcodeproj/Hymnal-CACI.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
     
 - script: /usr/local/bin/pod install
