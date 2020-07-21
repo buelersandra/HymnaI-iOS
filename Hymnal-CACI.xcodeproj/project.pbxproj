@@ -22,9 +22,9 @@
 		32A64A2A2427DC53000F6A11 /* ChorusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A292427DC53000F6A11 /* ChorusController.swift */; };
 		32A64A2C2427E70B000F6A11 /* CloudFirestoreUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */; };
 		32BE44B1243C0EAA0048C130 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */; };
-		629518F16B2DD200A84D117F /* Pods_Hymnal_CACITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DDF9F5296D4F3450C7E92 /* Pods_Hymnal_CACITests.framework */; };
-		914EC6D19107C03421B1FD13 /* Pods_Hymnal_CACI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832E6A9EBA03229C14055EB2 /* Pods_Hymnal_CACI.framework */; };
-		AEEA3797081A74E94A770053 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AB9A2EBED180A308A2EE5D /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */; };
+		7F6BC6BFFE96F13B9420C7E6 /* Pods_Hymnal_CACI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E06FC0338AD9761278848 /* Pods_Hymnal_CACI.framework */; };
+		82B1E26EBD598B3C862038D7 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16A18E9D9466B5EDA9B02DB /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */; };
+		BFC52CC009DC1A2F3AC58214 /* Pods_Hymnal_CACITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03444321B09E8B6E8012FACC /* Pods_Hymnal_CACITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		131B1611D49378D4680269B4 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		13AB9A2EBED180A308A2EE5D /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACI_Hymnal_CACIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03444321B09E8B6E8012FACC /* Pods_Hymnal_CACITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C71DBE9E33AEAF0110F116 /* Pods-Hymnal-CACITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACITests.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACITests/Pods-Hymnal-CACITests.release.xcconfig"; sourceTree = "<group>"; };
+		28DBF3D55AE570678C5F0958 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA76CBD15669EAB90E5FB8B /* Pods-Hymnal-CACITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACITests/Pods-Hymnal-CACITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3220426F241A2A8700FD6466 /* Hymnal-CACI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hymnal-CACI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32204272241A2A8700FD6466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32204274241A2A8700FD6466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,13 +70,11 @@
 		32A64A292427DC53000F6A11 /* ChorusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusController.swift; sourceTree = "<group>"; };
 		32A64A2B2427E70B000F6A11 /* CloudFirestoreUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFirestoreUtil.swift; sourceTree = "<group>"; };
 		32BE44B0243C0EA90048C130 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		832E6A9EBA03229C14055EB2 /* Pods_Hymnal_CACI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C2DDF9F5296D4F3450C7E92 /* Pods_Hymnal_CACITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5C94136A103E886C27C860 /* Pods-Hymnal-CACITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACITests.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACITests/Pods-Hymnal-CACITests.release.xcconfig"; sourceTree = "<group>"; };
-		D66622D2B81036A69D6CB505 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC75BEBC7F4A02E8D3120DFF /* Pods-Hymnal-CACI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.debug.xcconfig"; sourceTree = "<group>"; };
-		DCA40FFB227A155B7C392183 /* Pods-Hymnal-CACITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACITests.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACITests/Pods-Hymnal-CACITests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAABF21E4C0F9ADD7CCE6273 /* Pods-Hymnal-CACI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.release.xcconfig"; sourceTree = "<group>"; };
+		603E06FC0338AD9761278848 /* Pods_Hymnal_CACI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95075720E7F892BEE0B107C9 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D16A18E9D9466B5EDA9B02DB /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hymnal_CACI_Hymnal_CACIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3905B6895585B56E41A1B9B /* Pods-Hymnal-CACI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.debug.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.debug.xcconfig"; sourceTree = "<group>"; };
+		FCDB5E4E753D870DBCACC333 /* Pods-Hymnal-CACI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hymnal-CACI.release.xcconfig"; path = "Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914EC6D19107C03421B1FD13 /* Pods_Hymnal_CACI.framework in Frameworks */,
+				7F6BC6BFFE96F13B9420C7E6 /* Pods_Hymnal_CACI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629518F16B2DD200A84D117F /* Pods_Hymnal_CACITests.framework in Frameworks */,
+				BFC52CC009DC1A2F3AC58214 /* Pods_Hymnal_CACITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEA3797081A74E94A770053 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */,
+				82B1E26EBD598B3C862038D7 /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 				32204296241A2A8900FD6466 /* Hymnal-CACIUITests */,
 				32204270241A2A8700FD6466 /* Products */,
 				F073B1371C2370343E4D5546 /* Pods */,
-				4C2FA110CD7E3F687E706EF4 /* Frameworks */,
+				F9ADC31DFC26FA14BFC14EE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,27 +190,27 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		4C2FA110CD7E3F687E706EF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				832E6A9EBA03229C14055EB2 /* Pods_Hymnal_CACI.framework */,
-				13AB9A2EBED180A308A2EE5D /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */,
-				8C2DDF9F5296D4F3450C7E92 /* Pods_Hymnal_CACITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F073B1371C2370343E4D5546 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC75BEBC7F4A02E8D3120DFF /* Pods-Hymnal-CACI.debug.xcconfig */,
-				FAABF21E4C0F9ADD7CCE6273 /* Pods-Hymnal-CACI.release.xcconfig */,
-				D66622D2B81036A69D6CB505 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */,
-				131B1611D49378D4680269B4 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */,
-				DCA40FFB227A155B7C392183 /* Pods-Hymnal-CACITests.debug.xcconfig */,
-				BA5C94136A103E886C27C860 /* Pods-Hymnal-CACITests.release.xcconfig */,
+				E3905B6895585B56E41A1B9B /* Pods-Hymnal-CACI.debug.xcconfig */,
+				FCDB5E4E753D870DBCACC333 /* Pods-Hymnal-CACI.release.xcconfig */,
+				28DBF3D55AE570678C5F0958 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */,
+				95075720E7F892BEE0B107C9 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */,
+				2AA76CBD15669EAB90E5FB8B /* Pods-Hymnal-CACITests.debug.xcconfig */,
+				24C71DBE9E33AEAF0110F116 /* Pods-Hymnal-CACITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9ADC31DFC26FA14BFC14EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				603E06FC0338AD9761278848 /* Pods_Hymnal_CACI.framework */,
+				D16A18E9D9466B5EDA9B02DB /* Pods_Hymnal_CACI_Hymnal_CACIUITests.framework */,
+				03444321B09E8B6E8012FACC /* Pods_Hymnal_CACITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,11 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3220429C241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACI" */;
 			buildPhases = (
-				AAD0A1F5870DD5F20065128C /* [CP] Check Pods Manifest.lock */,
+				EE29397565CB44E326637941 /* [CP] Check Pods Manifest.lock */,
 				3220426B241A2A8700FD6466 /* Sources */,
 				3220426C241A2A8700FD6466 /* Frameworks */,
 				3220426D241A2A8700FD6466 /* Resources */,
-				69E885A78A152EC427A19F16 /* [CP] Embed Pods Frameworks */,
+				CBE093BD3EEB9941F6089E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3220429F241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACITests" */;
 			buildPhases = (
-				DBFA7C6CE34606E3CA7ADA4D /* [CP] Check Pods Manifest.lock */,
+				C30F5D2E2FD6665F3F22E120 /* [CP] Check Pods Manifest.lock */,
 				32204284241A2A8900FD6466 /* Sources */,
 				32204285241A2A8900FD6466 /* Frameworks */,
 				32204286241A2A8900FD6466 /* Resources */,
@@ -258,11 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 322042A2241A2A8900FD6466 /* Build configuration list for PBXNativeTarget "Hymnal-CACIUITests" */;
 			buildPhases = (
-				F8BD2C2DAD2222A730C8C43E /* [CP] Check Pods Manifest.lock */,
+				2C6A8B78108743BC81BEE949 /* [CP] Check Pods Manifest.lock */,
 				3220428F241A2A8900FD6466 /* Sources */,
 				32204290241A2A8900FD6466 /* Frameworks */,
 				32204291241A2A8900FD6466 /* Resources */,
-				AE854AA1A81D48852B79469F /* [CP] Embed Pods Frameworks */,
+				EE491627748015579BFA88D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -346,24 +346,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		69E885A78A152EC427A19F16 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AAD0A1F5870DD5F20065128C /* [CP] Check Pods Manifest.lock */ = {
+		2C6A8B78108743BC81BEE949 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,31 +361,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Hymnal-CACI-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hymnal-CACI-Hymnal-CACIUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE854AA1A81D48852B79469F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBFA7C6CE34606E3CA7ADA4D /* [CP] Check Pods Manifest.lock */ = {
+		C30F5D2E2FD6665F3F22E120 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,7 +390,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8BD2C2DAD2222A730C8C43E /* [CP] Check Pods Manifest.lock */ = {
+		CBE093BD3EEB9941F6089E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI/Pods-Hymnal-CACI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE29397565CB44E326637941 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,11 +422,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Hymnal-CACI-Hymnal-CACIUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hymnal-CACI-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE491627748015579BFA88D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hymnal-CACI-Hymnal-CACIUITests/Pods-Hymnal-CACI-Hymnal-CACIUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -632,11 +632,13 @@
 		};
 		3220429D241A2A8900FD6466 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC75BEBC7F4A02E8D3120DFF /* Pods-Hymnal-CACI.debug.xcconfig */;
+			baseConfigurationReference = E3905B6895585B56E41A1B9B /* Pods-Hymnal-CACI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				DEVELOPMENT_TEAM = 4473W94GFJ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Hymnal-CACI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,11 +653,13 @@
 		};
 		3220429E241A2A8900FD6466 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAABF21E4C0F9ADD7CCE6273 /* Pods-Hymnal-CACI.release.xcconfig */;
+			baseConfigurationReference = FCDB5E4E753D870DBCACC333 /* Pods-Hymnal-CACI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43C8PVP2R5;
+				DEVELOPMENT_TEAM = 4473W94GFJ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Hymnal-CACI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -670,7 +674,7 @@
 		};
 		322042A0241A2A8900FD6466 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCA40FFB227A155B7C392183 /* Pods-Hymnal-CACITests.debug.xcconfig */;
+			baseConfigurationReference = 2AA76CBD15669EAB90E5FB8B /* Pods-Hymnal-CACITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -693,7 +697,7 @@
 		};
 		322042A1241A2A8900FD6466 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5C94136A103E886C27C860 /* Pods-Hymnal-CACITests.release.xcconfig */;
+			baseConfigurationReference = 24C71DBE9E33AEAF0110F116 /* Pods-Hymnal-CACITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -716,7 +720,7 @@
 		};
 		322042A3241A2A8900FD6466 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D66622D2B81036A69D6CB505 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */;
+			baseConfigurationReference = 28DBF3D55AE570678C5F0958 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -737,7 +741,7 @@
 		};
 		322042A4241A2A8900FD6466 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131B1611D49378D4680269B4 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */;
+			baseConfigurationReference = 95075720E7F892BEE0B107C9 /* Pods-Hymnal-CACI-Hymnal-CACIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,7 +9,6 @@ target 'Hymnal-CACI' do
 	pod 'MBProgressHUD'
 	pod 'RxSwift'
 	pod 'RxCocoa'
-	pod 'Firebase/Core'
   	pod 'Firebase/Analytics'
 	pod 'Firebase/Firestore'
 	pod 'FirebaseFirestoreSwift'

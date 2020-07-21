@@ -8,6 +8,8 @@
 
 import Foundation
 import Firebase
+import FirebaseFirestore
+
 
 class CloudFirestoreUti {
     static let shared = CloudFirestoreUti()
@@ -15,7 +17,8 @@ class CloudFirestoreUti {
     let COLLECTION_HYMN="hymn"
     let COLLECTION_VERSE="verse"
     
-    let db = Firestore.firestore()
+    let db = Firestore.firestore() 
+    
     
     var verselist = [Verse]()
     
