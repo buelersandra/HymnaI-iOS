@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>520234528359-vbgpsqljpp5djb0oesj4csivt7d46bg3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.520234528359-vbgpsqljpp5djb0oesj4csivt7d46bg3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>520234528359-dvnrpvlsbp0gptc7pqs15ge2c9kia2c6.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAOxuccqrFPPKhKJ35wPC2gY9yZVxIppIw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>520234528359</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.beulahana.hymnal-caci</string>
+	<key>PROJECT_ID</key>
+	<string>hymn-cac</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hymn-cac.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:520234528359:ios:de429c0f0f8a1045d1aec2</string>
+	<key>DATABASE_URL</key>
+	<string>https://hymn-cac.firebaseio.com</string>
+</dict>
+</plist>
