@@ -23,5 +23,12 @@ target 'Hymnal-CACI' do
   target 'Hymnal-CACIUITests' do
     # Pods for testing
   end
+	
+post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+	config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+	config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+    end
+end
 
 end
