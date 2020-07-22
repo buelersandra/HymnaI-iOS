@@ -17,7 +17,7 @@ class CloudFirestoreUti {
     let COLLECTION_HYMN="hymn"
     let COLLECTION_VERSE="verse"
     
-    let db = Firestore.firestore() 
+    let db = Firestore.firestore()
     
     
     var verselist = [Verse]()
@@ -46,19 +46,20 @@ class CloudFirestoreUti {
                                  title: title,
                                  number: Int(number) ?? 0 ,
                                 chorus: document.get("chorus") as! String))})
-                                        
+
                     callback(list.unique(map: {$0.number}))
                 }else{
                     callback(list)
                 }
-                
-            
+
+
             }else{
                 callback(list)
             }
-            
-            
+
+
         })
+        
     }
     
     func getVerseCollection(callback:@escaping ([Verse])->Void){
@@ -74,17 +75,17 @@ class CloudFirestoreUti {
                                   hymnId: document.get("hymnId") as! String,
                                   verseNumber: document.get("verseNumber") as! Int,
                                   verse: document.get("verse") as! String))
-                        
-                        
-                       
+
+
+
                     })
-                    
+
                     callback(list)
                 }
-                
-            
+
+
             }
-            
+
         })
         
     }

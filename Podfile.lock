@@ -335,6 +335,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Firebase/Analytics
+  - Firebase/Core
   - Firebase/Firestore
   - FirebaseFirestoreSwift
   - MBProgressHUD
@@ -390,6 +391,6 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 13f5aaaf799aba19932a0b95d4506c0a16a8e7f8
+PODFILE CHECKSUM: a9bf8225425c06768fb6a1a9b1f95783fdaeb025
 
 COCOAPODS: 1.9.1
